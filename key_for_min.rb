@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   a = nil
   
   name_hash.each do |name,price|
-    if lowest == 0 || price < lowest
+    if  price < lowest
       lowest = price
       a = name
     end
